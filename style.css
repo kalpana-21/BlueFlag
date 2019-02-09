@@ -1,8 +1,33 @@
-body{
-	background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("pic2.jpg");
-	height: :85px;
-	background-size: cover;
-	background-position: center;
+.bg-image {
+
+  background-image:url("picture.jpg");
+  filter: blur(3px);
+  -webkit-filter: blur(3px);
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.h3{
+	color: #C4H2H2;
+	font-size: 30px;
+	font-family: "roboto",sans-seif;
+	text-align: center;
+	margin: 10px 0 0 ;
+
+}
+
+.bg-text {
+  
+  color: black;
+  font-weight: bold;
+  position: absolute;
+  top: 10%;
+  left:10%;
+  width: 80%;
+  height:29%;
+  padding: 0px;
 }
 
 .login-page{
@@ -13,7 +38,7 @@ body{
 
 .form{
 	position: relative;
-	z z-index: 1;
+	z-index: 1;
 	background: rgba(15,50,105,0.7);
 	max-width: 360px;
 	margin: 0 auto 100px;
